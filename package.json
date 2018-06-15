@@ -1,0 +1,18 @@
+{
+  "name": "remark-code",
+  "version": "1.0.0-0",
+  "description": "Extract code fences from markdown with Remark",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^12.0.2",
+    "remark-parse": "^5.0.0",
+    "unified": "^7.0.0"
+  }
+}
