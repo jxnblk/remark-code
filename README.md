@@ -18,7 +18,7 @@ const src = `
 
 const result = unified()
   .use(remark)
-  .use(compiler)
+  .use(code)
   .processSync(src)
 ```
 
